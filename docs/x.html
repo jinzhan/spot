@@ -1,0 +1,14 @@
+<script>
+let js = {
+    "cmps":"common.4934b7df.js",
+    "profile":"profile.74f3d7e9.js"
+};
+
+for (let key in js) {
+    loadjs(js[key]);
+}
+
+function loadjs(js) {
+    document.write(`loadjs: ${js}`);
+}
+</script>
